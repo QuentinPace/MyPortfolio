@@ -50,7 +50,3 @@ export default tseslint.config({
 ```
 -->
 # MyPortfolio 
-# PortfolioSite
-# PortfolioSite
-# PortfolioSite
-# MyPortfolio
