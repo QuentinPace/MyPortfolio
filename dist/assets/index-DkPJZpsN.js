@@ -58,4 +58,4 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */function _m(o){return D.createElement(Bh,{flushSync:Lm.flushSync,...o})}function Tm(){return Vr.jsx("h1",{children:"Hello"})}function Nm(){return Vr.jsx("h1",{children:"TestComp"})}const Dm=mm([{path:"/",element:Vr.jsx(Tm,{})},{path:"/test",element:Vr.jsx(Nm,{})}]);Lp.createRoot(document.getElementById("root")).render(Vr.jsx(Ep.StrictMode,{children:Vr.jsx(_m,{router:Dm})}));
+ */function _m(o){return D.createElement(Bh,{flushSync:Lm.flushSync,...o})}function Tm(){return Vr.jsx("h1",{children:"Hello"})}function Nm(){return Vr.jsx("h1",{children:"TestComp/test"})}const Dm=mm([{path:"/",element:Vr.jsx(Tm,{})},{path:"/test",element:Vr.jsx(Nm,{})}]);Lp.createRoot(document.getElementById("root")).render(Vr.jsx(Ep.StrictMode,{children:Vr.jsx(_m,{router:Dm})}));
