@@ -26,7 +26,7 @@ const Home: React.FC = () => {
 
     return (
       <main>
-        <nav >
+        <header className="nav-bar-main">
           <ul className="nav-items-list">
             <li className="nav-item">
               <Link
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
               </Link>
             </li>
           </ul>
-        </nav>
+        </header>
         <Element className="section" name="section1" id="section1">
           <h1>Section 1</h1>
           <p>Content for Section 1</p>
