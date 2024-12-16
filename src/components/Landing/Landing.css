@@ -21,7 +21,7 @@ main {
 
 .nav-item a {
     font-family: "Roboto", sans-serif;
-    color: rgb(230, 230, 230);
+    color: white;
     font-size: 20px;
     margin: 0 30px;
 }

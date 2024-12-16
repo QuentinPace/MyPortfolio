@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, Element } from "react-scroll";
 import "./Landing.css"
+import Home from "../Home/Home.tsx"
+
 
 const Landing: React.FC = () => {
     const [activeSection, setActiveSection] = useState<string>("section1");
@@ -61,8 +63,7 @@ const Landing: React.FC = () => {
           </ul>
         </header>
         <Element className="section" name="section1" id="section1">
-          <h1>Section 1</h1>
-          <p>Content for Section 1</p>
+          <Home />
         </Element>  
         <Element className="section" name="section2" id="section2">
           <h1>Section 2</h1>

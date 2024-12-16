@@ -13,7 +13,9 @@ label,
 button,
 div,
 h6 {
-    color: rgb(204, 200, 216);
+    color: white;
+    font-family: "Roboto", sans-serif;
+
 }
 
 ul {
