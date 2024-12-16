@@ -3,6 +3,10 @@ import "./Home.scss"
 
 export default function Home () {
 
+    const handleGetResumeClick = () => {
+        window.open("/resume.pdf", "_blank");
+      };
+
     return (
         <main className="main-home-container">
             <section className="main-home">
@@ -11,7 +15,7 @@ export default function Home () {
                         <h1>{portfolioObj.name}</h1>
                         <h2>{portfolioObj.jobTitle}</h2>
                     </div>
-                    <button className= "get-resume" onClick= {() => alert("poop")}>Get my resume</button>
+                    <button className= "get-resume" onClick= {handleGetResumeClick}>Get my resume</button>
                 </div>
                 <div className="home-right">
                     <div className="main-headshot" style={{"backgroundImage": `url(${portfolioObj.headshotPicUrl})`}}></div>
@@ -22,7 +26,6 @@ export default function Home () {
                 <div className="chevron"></div>
                 <div className="chevron"></div>
             </div>
-            
         </main>
     )
 }
