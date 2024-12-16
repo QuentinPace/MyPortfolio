@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, Element } from "react-scroll";
-import "./Home.css"
+import "./Landing.css"
 
-const Home: React.FC = () => {
+const Landing: React.FC = () => {
     const [activeSection, setActiveSection] = useState<string>("section1");
 
     // Track scroll position to update the active section
@@ -76,4 +76,4 @@ const Home: React.FC = () => {
     );
 };
 
-export default Home;
+export default Landing;
