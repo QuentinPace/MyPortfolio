@@ -4,8 +4,8 @@ import "./Home.scss"
 export default function Home () {
 
     return (
-        <>
-            <main className="main-home">
+        <main className="main-home-container">
+            <section className="main-home">
                 <div className="home-left">
                     <div className="home-text-container">
                         <h1>{portfolioObj.name}</h1>
@@ -15,13 +15,13 @@ export default function Home () {
                 <div className="home-right">
                     <div className="main-headshot" style={{"backgroundImage": `url(${portfolioObj.headshotPicUrl})`}}></div>
                 </div>
-            </main>
+            </section>
             <div className="scroll-down-container">
                 <div className="chevron"></div>
                 <div className="chevron"></div>
                 <div className="chevron"></div>
             </div>
             
-        </>
+        </main>
     )
 }
