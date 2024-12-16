@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, Element } from "react-scroll";
 import "./Landing.css"
 import Home from "../Home/Home.tsx"
+import About from "../About/About.tsx"
 
 
 const Landing: React.FC = () => {
@@ -66,8 +67,7 @@ const Landing: React.FC = () => {
           <Home />
         </Element>  
         <Element className="section" name="section2" id="section2">
-          <h1>Section 2</h1>
-          <p>Content for Section 2</p>
+          <About />
         </Element>  
         <Element className="section" name="section3" id="section3">
           <h1>Section 3</h1>

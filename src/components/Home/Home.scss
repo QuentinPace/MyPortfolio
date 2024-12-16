@@ -17,6 +17,27 @@
     background-size: cover;    
 }
 
+.get-resume {
+  background-color: transparent;
+  border: 3px solid rgb(80, 0, 255);
+  border-radius: 10px;
+  color: rgb(80, 0, 255);
+  width: 50%;
+  min-width: 250px;
+  height: 50px;
+  margin : 30px;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.get-resume:hover {
+  background-color: rgb(80, 0, 255);
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
 .main-home {
     display: flex;
     height: 60%;
@@ -34,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .home-left h1 {

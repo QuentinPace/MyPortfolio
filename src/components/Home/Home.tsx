@@ -11,6 +11,7 @@ export default function Home () {
                         <h1>{portfolioObj.name}</h1>
                         <h2>{portfolioObj.jobTitle}</h2>
                     </div>
+                    <button className= "get-resume" onClick= {() => alert("poop")}>Get my resume</button>
                 </div>
                 <div className="home-right">
                     <div className="main-headshot" style={{"backgroundImage": `url(${portfolioObj.headshotPicUrl})`}}></div>
