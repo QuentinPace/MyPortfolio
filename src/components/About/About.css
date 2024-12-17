@@ -131,6 +131,7 @@
 }
 
 .tech-sections-container section ul::-webkit-scrollbar {
+    display: block;
     height: 6px;
 }
 
@@ -292,7 +293,7 @@
 @media (max-width: 510px) {
     .about-articles div article p {
         font-size: 10px;
-        line-height: 24px;
+        line-height: 21px;
     }
 
     .about-articles div article {
