@@ -1,0 +1,192 @@
+.about-container {
+    height: 93%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offset-about {
+    height: 700px;
+}
+
+.about-articles div header {
+    font-size: 30px;
+}
+
+.about-articles div article {
+    background-color: rgb(59, 59, 59);
+    border: 3px solid rgb(59, 59, 59);
+    border-radius: 7px;
+    padding: 0px 25px;
+}
+
+.about-articles div article:hover {
+    border-color: rgb(80, 0, 255);
+
+}
+
+.about-articles div article p {
+    font-size: 19px;
+    line-height: 37px;
+}
+
+.about-articles {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-areas:
+    "aboutme howstarted"
+    "aboutme mymission";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-me-container {
+    grid-area: aboutme;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-container article {
+    flex: 1;
+}
+
+.about-me-container header {
+    height: 50px;
+}
+
+.how-it-started-container {
+    grid-area: howstarted;
+    display: flex;
+    flex-direction: column;
+}
+
+.how-it-started-container article {
+    flex: 1;
+}
+
+.how-it-started-container header {
+    height: 50px;
+}
+
+.my-mission-container {
+    grid-area: mymission;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-mission-container article {
+    flex: 1;
+}
+
+.my-mission-container header {
+    height: 50px;
+}
+
+
+.technology-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.technology-container h2 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.technology-container h3 {
+    font-size: 25px;
+    color: rgb(80, 120, 255);
+}
+
+.tech-sections-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tech-sections-container section {
+    display: flex;
+    height: 25%;
+}
+
+.tech-sections-container section label {
+    width: 200px;
+    font-size: 30px;
+    align-self: center;
+}
+
+.tech-sections-container section ul {
+    display: flex;
+    align-items: center;
+}
+
+.tech-sections-container section ul div {
+    height: 75%;
+    padding: 0px 20px;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 7px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-sections-container section ul div p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.tech-sections-container section ul div:hover {
+    border: 1px solid rgb(80, 0, 255);
+}
+
+@media (max-width: 1500px) {
+
+    .about-articles div article p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .about-articles div header {
+        height: 25px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    .about-articles {
+        grid-template-areas:
+        "aboutme mymission";
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .how-it-started-container {
+        display: none;
+    }
+
+}
+
+@media (max-width: 730px) {
+
+    .about-articles {
+        grid-template-areas:
+        "aboutme";
+        grid-template-rows: 1fr;
+        grid-template-columns:1fr;
+    }
+
+    .my-mission-container {
+        display: none;
+    }
+
+}
