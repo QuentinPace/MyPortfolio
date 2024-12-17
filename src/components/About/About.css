@@ -15,7 +15,7 @@
 
 .about-articles div article {
     background-color: rgb(59, 59, 59);
-    border: 3px solid rgb(59, 59, 59);
+    border: 2px solid rgb(59, 59, 59);
     border-radius: 7px;
     padding: 0px 25px;
 }
@@ -281,6 +281,12 @@
         font-size: 11px;
     }
 
+    .tech-sections-container section label {
+        width: 80px;
+        min-width: 80px;
+        font-size: 13px;
+    }
+
 }
 
 @media (max-width: 510px) {
@@ -289,4 +295,7 @@
         line-height: 24px;
     }
 
+    .about-articles div article {
+        padding: 0px 15px;
+    }
 }
