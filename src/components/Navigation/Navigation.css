@@ -1,0 +1,30 @@
+.nav-bar-non-home {
+    background-color: rgb(11, 11, 11);
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.nav-bar-non-home nav a {
+    font-size: 20px;
+}
+
+.nav-bar-non-home nav a:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .nav-bar-non-home nav a {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .nav-bar-non-home nav a {
+        font-size: 12px;
+    }
+}

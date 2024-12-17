@@ -3,10 +3,12 @@ import { Link, Element } from "react-scroll";
 import "./Landing.css"
 import Home from "../Home/Home.tsx"
 import About from "../About/About.tsx"
+import { useNavigate } from "react-router-dom";
 
 
 const Landing: React.FC = () => {
     const [activeSection, setActiveSection] = useState<string>("section1");
+    const navigate = useNavigate()
 
     // Track scroll position to update the active section
     const handleScroll = () => {
@@ -30,6 +32,7 @@ const Landing: React.FC = () => {
     return (
       <main>
         <header className="nav-bar-main">
+          <div className="nav-left"></div>
           <ul className="nav-items-list">
             <li className="nav-item">
               <Link
@@ -62,6 +65,7 @@ const Landing: React.FC = () => {
               </Link>
             </li>
           </ul>
+          <div className="nav-right" onClick={() => navigate("/contact")}>Contact Me</div>
         </header>
         <Element className="section" name="section1" id="section1">
           <Home />
