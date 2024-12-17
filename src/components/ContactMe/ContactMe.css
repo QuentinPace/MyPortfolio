@@ -6,16 +6,17 @@
     align-items: center;
     background: 
     linear-gradient(to bottom, 
-            rgba(0, 0, 0, 0.8) 20%,
-            rgba(0, 0, 0, 0.9) 40%,
-            rgba(0, 0, 0, 0.9) 55%,
-            rgba(0, 0, 0, 1) 65%
+            rgba(15, 15, 15, 0.5) 20%,
+            rgba(15, 15, 15, 0.6) 40%,
+            rgba(15, 15, 15, 0.7) 55%,
+            rgba(15, 15, 15, 0.8) 65%
         ),
-        url('https://i.pinimg.com/736x/c4/33/36/c43336eb7f0805d52bf89ff40e752f13.jpg');
+        url('https://habito-images.s3.us-east-2.amazonaws.com/portfolio-grid-background.jpg');
 }
 
 .contact-container {
-    background-color: rgb(11, 11, 11);
+    background-color: rgb(8, 8, 8);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     width: 80%;
     height: min-content;
     border-radius: 7px;
@@ -82,4 +83,12 @@
 
 .resume {
     border: 1px solid grey;
+}
+
+@media(min-width: 770px) {
+    .contact-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
 }

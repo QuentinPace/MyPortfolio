@@ -30,7 +30,7 @@ const Landing: React.FC = () => {
     }, []);
 
     return (
-      <main>
+      <main className="home-container-all" >
         <header className="nav-bar-main">
           <div className="nav-left"></div>
           <ul className="nav-items-list">

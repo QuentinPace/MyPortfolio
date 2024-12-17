@@ -14,8 +14,16 @@
     margin: 0px;
 }
 
-main {
-    background-color: rgb(22, 22, 22);
+.home-container-all {
+    /* background-color: rgb(22, 22, 22); */
+    background: 
+    linear-gradient(to bottom, 
+            rgba(15, 15, 15, 0.7) 20%,
+            rgba(15, 15, 15, 0.8) 40%,
+            rgba(15, 15, 15, 0.9) 55%,
+            rgba(15, 15, 15, 1) 65%
+        ),
+        url('https://habito-images.s3.us-east-2.amazonaws.com/portfolio-grid-background.jpg');
     width: 100%;
 }
 
@@ -57,10 +65,10 @@ main {
 
 @media (max-width: 700px) {
     .nav-bar-main div {
-        font-size: 15px;
+        font-size: 17px;
     }
     .nav-item a {
-        font-size: 15px;
+        font-size: 17px;
         margin: 0 15px;
     }
 
@@ -69,10 +77,10 @@ main {
 
 @media (max-width: 420px) {
     .nav-bar-main div {
-        font-size: 12px;
+        font-size: 14px;
     }
     .nav-item a {
-        font-size: 12px;
+        font-size: 14px;
         margin: 0 10px;
     }
 
