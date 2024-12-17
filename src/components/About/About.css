@@ -117,6 +117,7 @@
 
 .tech-sections-container section label {
     width: 200px;
+    min-width: 200px;
     font-size: 30px;
     align-self: center;
 }
@@ -124,6 +125,27 @@
 .tech-sections-container section ul {
     display: flex;
     align-items: center;
+    overflow-x: auto;
+    white-space: nowrap; 
+    overflow-y: hidden;
+}
+
+.tech-sections-container section ul::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tech-sections-container section ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.tech-sections-container section ul::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.tech-sections-container section ul::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .tech-sections-container section ul div {
@@ -168,6 +190,10 @@
         font-size: 20px;
     }
 
+    .tech-sections-container section ul div p{
+        font-size: 17px;
+    }
+
 }
 
 @media (max-width: 1150px) {
@@ -189,6 +215,16 @@
 
     .how-it-started-container {
         display: none;
+    }
+
+    .tech-sections-container section label {
+        width: 150px;
+        min-width: 150px;
+        font-size: 20px;
+    }
+
+    .tech-sections-container section ul div p{
+        font-size: 15px;
     }
 
 }
@@ -214,6 +250,16 @@
         display: none;
     }
 
+    .tech-sections-container section label {
+        width: 100px;
+        min-width: 100px;
+        font-size: 17px;
+    }
+
+    .tech-sections-container section ul div p{
+        font-size: 13px;
+    }
+
 }
 
 @media (max-width: 620px) {
@@ -229,6 +275,10 @@
     .about-articles div article p {
         font-size: 13px;
         line-height: 28px;
+    }
+
+    .tech-sections-container section ul div p{
+        font-size: 11px;
     }
 
 }
