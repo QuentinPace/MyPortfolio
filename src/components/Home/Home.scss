@@ -19,9 +19,9 @@
 
 .get-resume {
   background-color: transparent;
-  border: 3px solid rgb(80, 0, 255);
+  border: 3px solid rgb(255, 185, 55);
   border-radius: 7px;
-  color: rgb(80, 0, 255);
+  color: rgb(255, 185, 55);
   width: 50%;
   min-width: 250px;
   height: 50px;
@@ -32,9 +32,6 @@
 }
 
 .get-resume:hover {
-  background-color: rgb(80, 0, 255);
-  color: white;
-  border-color: white;
   cursor: pointer;
 }
 
@@ -170,7 +167,7 @@ $base: 0.6rem;
  top: 0;
  height: 100%;
  width: 50%;
- background: rgb(80, 0, 255);
+ background: rgb(255, 185, 55);
 }
 
 .chevron:before {

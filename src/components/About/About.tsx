@@ -35,7 +35,7 @@ export default function About () {
             </div>
             <div className="technology-container">
                 <h2>My Current Tech Stack</h2>
-                <h3>I use a diverse range of technologies and remain open to exploring new tools to ensure I'm always delivering the most effective and innovative solutions</h3>
+                <h3>Im always learning new tools to ensure I'm always delivering the most effective and innovative solutions</h3>
                 <div className="tech-sections-container">
                     <section className="languages">
                         <label>Languages:</label>
