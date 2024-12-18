@@ -252,6 +252,11 @@
         font-size: 17px;
     }
 
+    .about-articles div article p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
     .tech-sections-container section ul div p{
         font-size: 13px;
     }
@@ -269,8 +274,7 @@
     }
 
     .about-articles div article p {
-        font-size: 13px;
-        line-height: 28px;
+        font-size: 17px;
     }
 
     .tech-sections-container section ul div p{
@@ -287,8 +291,8 @@
 
 @media (max-width: 510px) {
     .about-articles div article p {
-        font-size: 12px;
-        line-height: 24px;
+        font-size: 15px;
+        line-height: 26px;
     }
 
     .about-articles div article {
@@ -298,7 +302,7 @@
 
 @media (max-width: 396px) {
     .about-articles div article p {
-        font-size: 10px;
-        line-height: 21px;
+        font-size: 14px;
+        line-height: 24px;
     }
 }
