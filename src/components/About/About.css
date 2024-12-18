@@ -293,11 +293,18 @@
 
 @media (max-width: 510px) {
     .about-articles div article p {
-        font-size: 10px;
-        line-height: 21px;
+        font-size: 12px;
+        line-height: 24px;
     }
 
     .about-articles div article {
         padding: 0px 15px;
+    }
+}
+
+@media (max-width: 396px) {
+    .about-articles div article p {
+        font-size: 10px;
+        line-height: 21px;
     }
 }

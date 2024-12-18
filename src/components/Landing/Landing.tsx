@@ -3,6 +3,7 @@ import { Link, Element } from "react-scroll";
 import "./Landing.css"
 import Home from "../Home/Home.tsx"
 import About from "../About/About.tsx"
+import MyWork from "../MyWork/MyWork.tsx";
 import { useNavigate } from "react-router-dom";
 
 
@@ -74,8 +75,7 @@ const Landing: React.FC = () => {
           <About />
         </Element>  
         <Element className="section" name="section3" id="section3">
-          <h1>Section 3</h1>
-          <p>Content for Section 3</p>
+          <MyWork />
         </Element>
       </main>
     );
