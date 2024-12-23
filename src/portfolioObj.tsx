@@ -1,5 +1,6 @@
 const portfolioObj = {
     name: "Quentin Pace",
+    resumeDocUrl: "https://docs.google.com/document/d/1jTJGxgkVgV7aFqcJOftHAKfpSHPDTCAR73__Htqhu7I",
     jobTitle: "Full-Stack Software Engineer",
     headshotPicUrl: "https://habito-images.s3.us-east-2.amazonaws.com/headhsot.jpg",
     linkedInLink: "https://www.linkedin.com/in/quentin-pace-507820300/",

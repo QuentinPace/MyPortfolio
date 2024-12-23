@@ -33,7 +33,7 @@ export default function ContactMe () {
                         <header>Github</header>
                     </div>
                 </section>
-                <section onClick={() => window.open("/resume.pdf", "_blank")} className="resume">
+                <section onClick={() => window.open(portfolioObj.resumeDocUrl, "_blank")} className="resume">
                     <div className="logo-container">
                         <FaFileAlt></FaFileAlt>
                     </div>

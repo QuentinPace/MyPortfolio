@@ -4,7 +4,7 @@ import "./Home.scss"
 export default function Home () {
 
     const handleGetResumeClick = () => {
-        window.open("/resume.pdf", "_blank");
+        window.open(portfolioObj.resumeDocUrl, "_blank", "noopener,noreferrer");
       };
 
     return (
