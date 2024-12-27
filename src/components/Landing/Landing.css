@@ -24,6 +24,9 @@
             rgba(15, 15, 15, 1) 65%
         ),
         url('https://habito-images.s3.us-east-2.amazonaws.com/portfolio-grid-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
 }
 

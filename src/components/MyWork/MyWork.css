@@ -63,12 +63,8 @@
 }
 
 @media (min-width: 1300px) {
-    .project-item {
+     .project-item {
         max-width: 700px;
-    }
-
-    .project-item-block {
-        height: 300px;
     }
 
 }
