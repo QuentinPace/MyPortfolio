@@ -3,9 +3,9 @@
 }
 
 .section {
-    height: 100vh;
-    padding: 2rem;
-    padding-top: 100px;
+    height: 900px;
+    padding: 20px;
+    padding-top: 50px;
 }
 
 .nav-items-list {
