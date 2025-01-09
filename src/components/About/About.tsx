@@ -1,5 +1,6 @@
 import "./About.css"
 import portfolioObj from "../../portfolioObj"
+import SlideInDiv from "../SlideInDiv/SlideInDiv"
 
 const technologyFormatter = (techArr: string[]): React.ReactNode[] => {
     const finalNodes: React.ReactNode[] = []
@@ -20,18 +21,18 @@ export default function About () {
     return (
         <section className="about-container">
             <div className="about-articles">
-                <div className="about-me-container">
+                <SlideInDiv fromLeft={true} className="about-me-container">
                     <header>A little bit about me</header>
                     <article><p>{portfolioObj.aLittleBitAboutMe}</p></article>
-                </div>
-                <div className="how-it-started-container">
+                </SlideInDiv>
+                <SlideInDiv fromLeft={false} className="how-it-started-container">
                     <header>How it all started</header>
                     <article><p>{portfolioObj.howItAllStarted}</p></article>
-                </div>
-                <div className="my-mission-container">
+                </SlideInDiv>
+                <SlideInDiv fromLeft={false} className="my-mission-container">
                     <header>My mission</header>
                     <article><p>{portfolioObj.myMission}</p></article>
-                </div>
+                </SlideInDiv>
             </div>
             <div className="technology-container">
                 <h2>My Current Tech Stack</h2>
