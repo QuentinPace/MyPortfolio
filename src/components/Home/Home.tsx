@@ -1,6 +1,7 @@
 import portfolioObj from "../../portfolioObj"
 import "./Home.scss"
 import SlideInDiv from "../SlideInDiv/SlideInDiv";
+import { motion } from "framer-motion";
 
 export default function Home () {
 
@@ -19,7 +20,17 @@ export default function Home () {
                     <button className= "get-resume" onClick= {handleGetResumeClick}>Get my resume</button>
                 </SlideInDiv>
                 <div className="home-right">
-                    <SlideInDiv fromLeft={false} className="main-headshot" style={{"backgroundImage": `url(${portfolioObj.headshotPicUrl})`}}></SlideInDiv>
+                    {/* <SlideInDiv fromLeft={false} className="main-headshot" style={{"backgroundImage": `url(${portfolioObj.headshotPicUrl})`}}></SlideInDiv> */}
+                    <motion.div
+                        className="main-headshot"
+                        style={{"backgroundImage": `url(${portfolioObj.headshotPicUrl})`}}
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{
+                            duration: 0.4,
+                            scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                        }}
+                    />
                 </div>
             </section>
             <div className="scroll-down-container">

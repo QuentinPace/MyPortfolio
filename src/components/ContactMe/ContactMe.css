@@ -32,14 +32,14 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-.contact-container section {
+.contact-container #section {
     margin: 15px;
     height: 60px;
     border-radius: 5px;
     display: flex;
 }
 
-.contact-container section:hover {
+.contact-container #section:hover {
     cursor: pointer;
 }
 

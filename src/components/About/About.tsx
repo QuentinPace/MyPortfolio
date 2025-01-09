@@ -7,9 +7,9 @@ const technologyFormatter = (techArr: string[]): React.ReactNode[] => {
 
     for (let i = 0; i < techArr.length ; i++){
         finalNodes.push((
-            <div key={i}>
+            <SlideInDiv fromLeft={false} key={i}>
                 <p>{techArr[i]}</p>
-            </div>
+            </SlideInDiv>
         ))
 
     }
