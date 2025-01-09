@@ -4,7 +4,6 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 
 export default function ContactMe () {
 
-
     return (
         <main className="contact-block">
             <div className="contact-container">
@@ -44,5 +43,5 @@ export default function ContactMe () {
             </div>
         </main>
     )
-    
+
 }

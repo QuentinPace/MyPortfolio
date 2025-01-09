@@ -2,9 +2,11 @@ import "./MyWork.css"
 import portfolioObj from "../../portfolioObj"
 import { Project } from "../../portfolioObj"; // TS interface
 import React from "react";
-
+import SlideInDiv from "../SlideInDiv/SlideInDiv";
 
 export default function MyWork () {
+
+const sections = ["Scroll", "to", "trigger", "animations!"];
 
     const workFormatter = (myWorkArr: Project[]): React.ReactNode[] => {
         const finalNodes = []
@@ -31,6 +33,11 @@ export default function MyWork () {
             <section>
                 {workFormatter(portfolioObj.myWork)}
             </section>
+            {/* {sections.map((text, index) => (
+            <ScrollSection key={index} text={text} colorIndex={index} /> */}
+            <SlideInDiv>
+                <section>Ohhhhhhbyeaaaaaaaa</section>
+            </SlideInDiv>
         </main>
     )
 }
