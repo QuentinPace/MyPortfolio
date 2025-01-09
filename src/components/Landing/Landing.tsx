@@ -33,7 +33,6 @@ const Landing: React.FC = () => {
     return (
       <main className="home-container-all" >
         <header className="nav-bar-main">
-          <div className="nav-left"></div>
           <ul className="nav-items-list">
             <li className="nav-item">
               <Link
@@ -65,8 +64,8 @@ const Landing: React.FC = () => {
                 My Work
               </Link>
             </li>
+            <li className="nav-item-li-text" onClick={() => navigate("/contact")}>Contact Me</li>
           </ul>
-          <div className="nav-right" onClick={() => navigate("/contact")}>Contact Me</div>
         </header>
         <Element className="section" name="section1" id="section1">
           <Home />

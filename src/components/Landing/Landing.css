@@ -39,37 +39,30 @@
     margin: 0 30px;
 }
 
+.nav-item-li-text {
+    font-size: 20px;
+}
+
 .nav-item a:hover {
     cursor: pointer;
 }
 
 .nav-bar-main {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background: #fff;
     padding: 1rem;
     z-index: 10 ;
     background-color: rgb(11, 11, 11);
     border-bottom: 1px solid grey;
 }
 
-.nav-bar-main div {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-bar-main div:hover {
-    cursor: pointer;
-}
 
 @media (max-width: 700px) {
-    .nav-bar-main div {
+    .nav-item-li-text {
         font-size: 17px;
     }
     .nav-item a {
@@ -81,7 +74,7 @@
 }
 
 @media (max-width: 420px) {
-    .nav-bar-main div {
+    .nav-item-li-text {
         font-size: 14px;
     }
     .nav-item a {
