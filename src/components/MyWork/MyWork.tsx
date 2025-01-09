@@ -31,7 +31,7 @@ export default function MyWork () {
             <section>
                 {workFormatter(portfolioObj.myWork)}
             </section>
-            <SlideInDiv>
+            <SlideInDiv fromLeft={true}>
                 <section>Ohhhhhhbyeaaaaaaaa</section>
             </SlideInDiv>
         </main>
