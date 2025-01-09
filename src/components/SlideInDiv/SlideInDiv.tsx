@@ -5,9 +5,10 @@ import { useInView } from "react-intersection-observer";
 interface WrapperProps {
     children: ReactNode;
     fromLeft: Boolean;
+    className: string;
   }
 
-const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft }) => {
+const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className }) => {
     const controls = useAnimation();
     const [ref, inView] = useInView({
       triggerOnce: true,
@@ -28,21 +29,18 @@ const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft }) => {
     }, [controls, inView]);
   
     return (
-        <section
-          className={`wrapper`}
-          ref={ref}
+        <motion.div
+            ref={ref}
+            className={className}
+            initial={{ opacity: 0, x: -100 }}
+            animate={controls}
+            transition={{
+              duration: 0.9,
+              ease: [0.17, 0.55, 0.55, 1],
+            }}
         >
-            <motion.pre
-              initial={{ opacity: 0, x: -100 }}
-              animate={controls}
-              transition={{
-                duration: 0.9,
-                ease: [0.17, 0.55, 0.55, 1],
-              }}
-            >
-              {children}
-            </motion.pre>
-        </section>
+          {children}
+        </motion.div>
     );
 };
   

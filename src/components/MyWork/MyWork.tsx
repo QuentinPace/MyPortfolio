@@ -10,14 +10,14 @@ export default function MyWork () {
         const finalNodes = []
         for(let i = 0; i < myWorkArr.length; i++){
             finalNodes.push((
-                <div key={i} className="project-item-block">
-                    <div 
-                    className="project-item" 
-                    style={{backgroundImage: `url(${myWorkArr[i].previewImg})`}}
-                    onClick={() => window.open(myWorkArr[i].liveLink, "_blank")}>
-                        <div>Visit {myWorkArr[i].name}</div>
-                    </div>
-                </div>
+                <SlideInDiv className="project-item-block" fromLeft={i % 2 == 0} key={i}>
+                        <div 
+                        className="project-item" 
+                        style={{backgroundImage: `url(${myWorkArr[i].previewImg})`}}
+                        onClick={() => window.open(myWorkArr[i].liveLink, "_blank")}>
+                            <div>Visit {myWorkArr[i].name}</div>
+                        </div>
+                </SlideInDiv>
             ))
         }
         return finalNodes
@@ -31,9 +31,6 @@ export default function MyWork () {
             <section>
                 {workFormatter(portfolioObj.myWork)}
             </section>
-            <SlideInDiv fromLeft={true}>
-                <section>Ohhhhhhbyeaaaaaaaa</section>
-            </SlideInDiv>
         </main>
     )
 }
