@@ -1,14 +1,15 @@
-import { ReactNode, useEffect } from 'react';
+import { ReactNode, useEffect, CSSProperties } from 'react';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 interface WrapperProps {
-    children: ReactNode;
+    children?: ReactNode;
     fromLeft: Boolean;
-    className: string;
+    className?: string;
+    style?: CSSProperties;
   }
 
-const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className }) => {
+const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className, style }) => {
     const controls = useAnimation();
     const [ref, inView] = useInView({
       triggerOnce: true,
@@ -34,12 +35,13 @@ const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className }) =
             className={className}
             initial={{ opacity: 0, x: -100 }}
             animate={controls}
+            style={style}
             transition={{
               duration: 0.9,
               ease: [0.17, 0.55, 0.55, 1],
             }}
         >
-          {children}
+          {children && children}
         </motion.div>
     );
 };

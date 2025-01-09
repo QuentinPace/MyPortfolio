@@ -15,19 +15,21 @@
 }
 
 .home-container-all {
-    /* background-color: rgb(22, 22, 22); */
-    background: 
-    linear-gradient(to bottom, 
-            rgba(15, 15, 15, 0.7) 20%,
-            rgba(15, 15, 15, 0.8) 40%,
-            rgba(15, 15, 15, 0.9) 55%,
-            rgba(15, 15, 15, 1) 65%
-        ),
-        url('https://habito-images.s3.us-east-2.amazonaws.com/portfolio-grid-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
+    --dot-bg: #050505;
+    --dot-color: #757575;
+    --dot-size: 1px;
+    --dot-space: 20px;
+    background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(to bottom, 
+      rgba(15, 15, 15, 0.7) 20%,
+      rgba(15, 15, 15, 0.8) 40%,
+      rgba(15, 15, 15, 0.9) 55%,
+      rgba(15, 15, 15, 1) 65%
+  ),
+      var(--dot-color);
+      width: 100%;
 }
 
 .nav-item a {
