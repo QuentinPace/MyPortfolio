@@ -6,8 +6,6 @@ import SlideInDiv from "../SlideInDiv/SlideInDiv";
 
 export default function MyWork () {
 
-const sections = ["Scroll", "to", "trigger", "animations!"];
-
     const workFormatter = (myWorkArr: Project[]): React.ReactNode[] => {
         const finalNodes = []
         for(let i = 0; i < myWorkArr.length; i++){
@@ -33,8 +31,6 @@ const sections = ["Scroll", "to", "trigger", "animations!"];
             <section>
                 {workFormatter(portfolioObj.myWork)}
             </section>
-            {/* {sections.map((text, index) => (
-            <ScrollSection key={index} text={text} colorIndex={index} /> */}
             <SlideInDiv>
                 <section>Ohhhhhhbyeaaaaaaaa</section>
             </SlideInDiv>
