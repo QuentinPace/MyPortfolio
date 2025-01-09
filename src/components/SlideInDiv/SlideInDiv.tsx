@@ -7,9 +7,11 @@ interface WrapperProps {
     fromLeft: Boolean;
     className?: string;
     style?: CSSProperties;
+    id?: string;
+    onClick?: React.MouseEventHandler<HTMLElement>;
   }
 
-const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className, style }) => {
+const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className, style, id, onClick }) => {
     const controls = useAnimation();
     const [ref, inView] = useInView({
       triggerOnce: true,
@@ -33,6 +35,8 @@ const SlideInDiv: React.FC<WrapperProps> = ({ children, fromLeft, className, sty
         <motion.div
             ref={ref}
             className={className}
+            id={id}
+            onClick={onClick}
             initial={{ opacity: 0, x: -100 }}
             animate={controls}
             style={style}
