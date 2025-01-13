@@ -1,4 +1,5 @@
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
+import portfolioObj from "../../portfolioObj";
 import "./Navigation.css"
 
 export default function Navigation () {
@@ -9,7 +10,8 @@ export default function Navigation () {
         <>
             {location.pathname !== "/" && (
                 <header className="nav-bar-non-home">
-                    <nav>
+                    <span className="title-name-container-nav"><span className="name-nav">{portfolioObj.name}</span> | {portfolioObj.jobTitle}</span>
+                    <nav className="nav-nav-links">
                         <a onClick={() => navigate("/")}>Home</a>
                     </nav>
                 </header>

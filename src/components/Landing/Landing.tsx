@@ -5,6 +5,7 @@ import Home from "../Home/Home.tsx"
 import About from "../About/About.tsx"
 import MyWork from "../MyWork/MyWork.tsx";
 import { useNavigate } from "react-router-dom";
+import portfolioObj from "../../portfolioObj.tsx";
 
 
 const Landing: React.FC = () => {
@@ -33,6 +34,7 @@ const Landing: React.FC = () => {
     return (
       <main className="home-container-all" >
         <header className="nav-bar-main">
+        <span className="title-name-container"><span className="name">{portfolioObj.name}</span> | {portfolioObj.jobTitle}</span>
           <ul className="nav-items-list">
             <li className="nav-item">
               <Link
