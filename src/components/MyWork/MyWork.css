@@ -50,6 +50,10 @@
     font-size: 20px;
 }
 
+#section4 {
+    padding-top: 0;
+}
+
 
 @media (min-width: 800px) {
     .my-work-container section {
