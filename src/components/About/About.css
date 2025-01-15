@@ -1,7 +1,7 @@
 .about-me-container {
     width: 100%;
     height: 100%;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(77, 77, 77);
     margin-top: 0px;
     display: flex;
 }
@@ -18,7 +18,7 @@
 }
 
 .about-me-pic-right {
-    background-image: url("https://icon2.cleanpng.com/20240308/gfo/transparent-computer-programmer-coding-computer-programming-wo-man-working-on-computer-at-1710845768182.webp");
+    background-image: url("https://shmector.com/_ph/2/886234982.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

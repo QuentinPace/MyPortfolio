@@ -44,8 +44,8 @@ export default function MyWork () {
               >
                 <defs>
                   <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                    <stop stopColor="rgba(43.579, 43.579, 43.579, 1)" offset="0%" />
-                    <stop stopColor="rgba(43.579, 43.579, 43.579, 1)" offset="100%" />
+                    <stop stopColor="rgba(77, 77, 77, 1)" offset="0%" />
+                    <stop stopColor="rgba(77, 77, 77, 1)" offset="100%" />
                   </linearGradient>
                 </defs>
                 <path
