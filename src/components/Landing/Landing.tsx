@@ -4,6 +4,7 @@ import "./Landing.css"
 import Home from "../Home/Home.tsx"
 import About from "../About/About.tsx"
 import MyWork from "../MyWork/MyWork.tsx";
+import TechStack from "../TechStack/TechStack.tsx";
 import { useNavigate } from "react-router-dom";
 import portfolioObj from "../../portfolioObj.tsx";
 
@@ -63,6 +64,16 @@ const Landing: React.FC = () => {
                 duration={500}
                 className={activeSection === "section3" ? "active" : ""}
               >
+                Tech Stack
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="section4"
+                smooth={true}
+                duration={500}
+                className={activeSection === "section4" ? "active" : ""}
+              >
                 My Work
               </Link>
             </li>
@@ -76,6 +87,9 @@ const Landing: React.FC = () => {
           <About />
         </Element>  
         <Element className="section" name="section3" id="section3">
+          <TechStack />
+        </Element>  
+        <Element className="section" name="section4" id="section4">
           <MyWork />
         </Element>
       </main>
