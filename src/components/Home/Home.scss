@@ -56,6 +56,10 @@
 
 .home-left h1 {
     font-size: 100px;
+    background: linear-gradient(to right, #FDB838, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .home-left h2 {
@@ -64,7 +68,9 @@
 }
 
 .home-text-container {
-    border-bottom: 5px solid white;
+  margin: 30px;
+  margin-top: 160px;
+  border-bottom: 5px solid white;
 }
 
 

@@ -21,6 +21,7 @@ const ViteIcon: React.FC<ViteIconProps> = ({
         <motion.svg xmlns="http://www.w3.org/2000/svg"
           width={width}
           height={height}
+          className="tech-logo"
           id="Nodejs"
           viewBox="0 0 410 404"
           onClick={handleClick}

@@ -22,6 +22,7 @@ const PostgreSQLIcon: React.FC<PostgreSQLIconProps> = ({
           width={width}
           height={height}
           id="PostgreSQL"
+          className="tech-logo"
           viewBox="0 0 128 128"
           onClick={handleClick}
           animate={{ rotate: rotate ? 360 : 0 }}

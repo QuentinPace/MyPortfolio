@@ -4,6 +4,102 @@
     height: 100%;
 }
 
+.tech-stack-text {
+    padding: 20px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tech-stack-text h1 {
+    font-size: 40px;
+    font-weight: 200;
+    background: linear-gradient(to right, #FDB838, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tech-stack-text p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    color: rgb(184, 184, 184)
+}
+
+.tech-logos-sub-container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tech-logos-container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tech-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    min-width: 50px;
+
+}
+
 #section3 {
     padding-top: 0;
+}
+
+.tech-logo:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    .tech-stack-container {
+        display: flex;
+    }
+
+    .tech-stack-text {
+        height: 100%;
+        width: 50%;
+    }
+
+    .tech-logos-container {
+        height: 100%;
+        width: 50%;
+        align-items: center;
+    }
+
+    .tech-logos-sub-container {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .tech-stack-text h1 {
+        font-size: 60px;
+
+    }
+    
+    .tech-stack-text p {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .tech-logo {
+        width: 100px;
+        height: 100px;
+    
+    }
+
 }

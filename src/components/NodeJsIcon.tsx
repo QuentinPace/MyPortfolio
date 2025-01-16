@@ -24,6 +24,7 @@ const NodejsIcon: React.FC<NodejsIconProps> = ({
           id="Nodejs"
           viewBox="0 0 32 32"
           onClick={handleClick}
+          className="tech-logo"
           animate={{ rotate: rotate ? 360 : 0 }}
           transition={{ duration: 1 }}>
           <path

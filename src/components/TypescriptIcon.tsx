@@ -22,6 +22,7 @@ const TypescriptIcon: React.FC<TypescriptIconProps> = ({
           width={width}
           height={height}
           id="Nodejs"
+          className="tech-logo"
           viewBox="0 0 128 128"
           onClick={handleClick}
           animate={{ rotate: rotate ? 360 : 0 }}

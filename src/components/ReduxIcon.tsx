@@ -24,6 +24,7 @@ const ReduxIcon: React.FC<ReduxIconProps> = ({
           id="Nodejs"
           preserveAspectRatio="xMidYMid"
           viewBox="0 0 256 256"
+          className="tech-logo"
           onClick={handleClick}
           animate={{ rotate: rotate ? 360 : 0 }}
           transition={{ duration: 1 }}>

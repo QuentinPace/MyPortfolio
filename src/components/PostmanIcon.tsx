@@ -25,6 +25,7 @@ const PostmanIcon: React.FC<PostmanIconProps> = ({
           id="Nodejs"
           viewBox="0 0 24 24"
           onClick={handleClick}
+          className="tech-logo"
           animate={{ rotate: rotate ? 360 : 0 }}
           transition={{ duration: 1 }}>
           <path

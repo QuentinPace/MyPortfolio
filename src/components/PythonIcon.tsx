@@ -24,6 +24,7 @@ interface PythonIconProps {
           height={height}
           viewBox="0 0 128 128"
           id="Python"
+          className="tech-logo"
           onClick={handleClick}
           animate={{ rotate: rotate ? 360 : 0 }}
           transition={{ duration: 1 }}>

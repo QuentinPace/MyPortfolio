@@ -25,6 +25,7 @@ const ReactIcon: React.FC<ReactIconProps> = ({
           enableBackground="new 0 0 128 128"
           viewBox="0 0 128 128"
           onClick={handleClick}
+          className="tech-logo"
           animate={{ rotate: rotate ? 360 : 0 }}
           transition={{ duration: 1 }}>
           <g fill={fill}>

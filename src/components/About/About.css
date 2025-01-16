@@ -25,13 +25,17 @@
 
 .about-me-text-left p {
     font-size: 12px;
-    line-height: 30px;
+    line-height: 27px;
     align-self: center;
 }
 
 .about-me-text-left h2 {
     font-size: 40px;
     font-weight: 200;
+    background: linear-gradient(to right, #FDB838, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about-me-pic-right {
@@ -46,9 +50,6 @@
     width: calc(100% - 40px);
     padding: 20px;
     align-items: center;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
 }
 
 
