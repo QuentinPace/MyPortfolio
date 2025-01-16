@@ -1,21 +1,5 @@
 import "./About.css"
 import portfolioObj from "../../portfolioObj"
-import SlideInDiv from "../SlideInDiv/SlideInDiv"
-
-const technologyFormatter = (techArr: string[]): React.ReactNode[] => {
-    const finalNodes: React.ReactNode[] = []
-
-    for (let i = 0; i < techArr.length ; i++){
-        finalNodes.push((
-            <div key={i}>
-                <p>{techArr[i]}</p>
-            </div>
-        ))
-
-    }
-    return finalNodes
-
-}
 
 export default function About () {
     return (
@@ -34,11 +18,11 @@ export default function About () {
               <defs>
                 <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
                   <stop
-                    stopColor="rgba(77, 77, 77, 1)"
+                    stopColor="rgba(23, 23, 23, 1)"
                     offset="0%"
                   />
                   <stop
-                    stopColor="rgba(77, 77, 77, 1)"
+                    stopColor="rgba(50, 50, 50, 1)"
                     offset="100%"
                   />
                 </linearGradient>
@@ -56,7 +40,7 @@ export default function About () {
             <div className="about-me-container">
                 <aside className="about-me-text-left">
                     <h2>Welcome.</h2>
-                    <p></p>
+                    <p>{portfolioObj.aLittleBitAboutMe}</p>
                 </aside>
                 <aside className="about-me-pic-right"></aside>
             </div>

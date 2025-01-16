@@ -29,7 +29,7 @@ export default function MyWork () {
         <main className="my-work-container">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/2999/xlink"
                 id="wave"
                 style={{
                     transform: 'rotate(180deg)',
@@ -44,8 +44,8 @@ export default function MyWork () {
               >
                 <defs>
                   <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                    <stop stopColor="rgba(77, 77, 77, 1)" offset="0%" />
-                    <stop stopColor="rgba(77, 77, 77, 1)" offset="100%" />
+                    {/* <stop stopColor="rgb(182, 145, 145)" offset="0%" />
+                    <stop stopColor="rgba(77, 77, 77, 1)" offset="100%" /> */}
                   </linearGradient>
                 </defs>
                 <path
