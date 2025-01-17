@@ -35,7 +35,7 @@ export default function MyWork () {
               xmlns="http://www.w3.org/2000/svg">
                 <defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
                   <stop stopColor="rgba(23, 23, 23, 1)" offset="0%"></stop>
-                  <stop stopColor="rgba(50, 50, 50, 1)" offset="100%"></stop>
+                  <stop stopColor="rgba(23, 23, 23, 1)" offset="100%"></stop>
                   </linearGradient>
                 </defs>
                   <path

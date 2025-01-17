@@ -21,7 +21,7 @@ export default function About () {
                     offset="0%"
                   />
                   <stop
-                    stopColor="rgba(50, 50, 50, 1)"
+                    stopColor="rgba(23, 23, 23, 1)"
                     offset="100%"
                   />
                 </linearGradient>
