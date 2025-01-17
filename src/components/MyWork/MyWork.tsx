@@ -30,7 +30,7 @@ export default function MyWork () {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/2999/xlink"
-                id="wave"
+                id="wave2"
                 style={{
                     transform: 'rotate(180deg)',
                     transition: '0.3s',
