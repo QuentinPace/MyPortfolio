@@ -2,13 +2,16 @@ body {
   padding: 0px;
   margin: 0px;
   --dot-bg: #0c0c0c;
-    --dot-color: #3d3d3d;
-    --dot-size: 1px;
+    --dot-color: #131313;
+    --dot-size: 2px;
     --dot-space: 20px;
     background:
-      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-      var(--dot-color);
+      /* linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), */
+      radial-gradient(circle, var(--dot-color) var(--dot-size), transparent 0) 
+      0 0 / var(--dot-space) var(--dot-space),
+      var(--dot-bg);
+      /* var(--dot-color); */
     overflow-x: hidden;
 }
 

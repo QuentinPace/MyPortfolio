@@ -24,6 +24,7 @@
 }
 
 .about-me-text-left p {
+    color: rgb(184, 184, 184);
     font-size: 12px;
     line-height: 27px;
     align-self: center;
