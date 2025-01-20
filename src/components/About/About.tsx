@@ -11,7 +11,7 @@ export default function About () {
               style={{
                 width: "100%",
               }}
-              viewBox="0 0 1440 280"
+              viewBox="0 0 1440 200"
               version="1.1"
             >
               <defs>

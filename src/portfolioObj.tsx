@@ -7,12 +7,6 @@ const portfolioObj = {
     email: "quentinepace@gmail.com",
     githubProfileLink: "https://github.com/QuentinPace",
     aLittleBitAboutMe: "Hi there! I’m Quentin Pace, a full-stack software engineer based in Indiana. I love building applications that are fast, functional, and easy to use—whether it’s a fin-tech platform, a habit tracker, or a community-driven marketplace. When I’m not coding, you can find me lifting at the gym, perfecting my golf swing, or on adventures with my little one.",
-    howItAllStarted: "As a child, I dreamed of creating video games, captivated by the creativity and technology behind them. That passion sparked again in high school when I took my first coding class—I was instantly hooked. Fast forward to today, that curiosity has grown into a full pursuit of success in software development. From a kid with a dream to a determined developer, this journey has been all about growth, learning, and turning passion into reality.",
-    myMission: "My mission is to deliver high-quality software solutions that consistently exceed expectations. I ensure that every project I work on is completed with precision and care. I take pride in creating solutions that are not only functional but also reflect a commitment to innovation and excelence.",
-    languages: ["JavaScript", "Python", "TypeScript","HTML","CSS","SQL"],
-    frameworks: ["React.js","Redux","Express.js","Flask","Sequelize","SQLAlchemy"],
-    databases: ["SQLite","PostgreSQL"],
-    otherTools: ["NPM","Node.js","Nodemon","Chai","Cypress","Docker","Mocha","Postman","Vite","AWS","Render","GitHub"],
     myWork: [
         {
             name: "Habito",

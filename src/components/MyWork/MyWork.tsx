@@ -38,7 +38,7 @@ export default function MyWork () {
               <svg
               id="wave2"
               style={{transform: "rotate(180deg)", transition: "0.3s"}}
-              viewBox="0 0 1440 300" 
+              viewBox="0 0 1440 180" 
               version="1.1"
               xmlns="http://www.w3.org/2000/svg">
                 <defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
