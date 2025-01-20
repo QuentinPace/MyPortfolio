@@ -21,7 +21,7 @@ export default function MyWork () {
                                 <nav className="project-button-container">
                                     <button className="live-site-project" onClick={() => window.open(myWorkArr[i].liveLink, "_blank")}>Live Site <span className="arrow">→</span></button>
                                     <button className="source-code-project" onClick={() => window.open(myWorkArr[i].githubLink, "_blank")}>GitHub Repo <span className="arrow">→</span></button>
-                                    <button className="demo-video-project" onClick={() => window.open(myWorkArr[i].demoVideoLink, "_blank")}>Demo Video <span className="arrow">→</span></button>
+                                    {/* <button className="demo-video-project" onClick={() => window.open(myWorkArr[i].demoVideoLink, "_blank")}>Demo Video <span className="arrow">→</span></button> */}
                                 </nav>
                             </footer>
                         </div>
