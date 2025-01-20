@@ -1,75 +1,88 @@
-.project-item {
-    width: 100%;
-    max-width: 500px;
-    min-width: 200px;
-    height: 100%;
-    background-repeat: no-repeat;       
-    background-position: center center; 
-    background-size: cover;
-    border-radius: 5px;
-    border: 2px solid white;
-}
 
-.project-item:hover {
-    cursor: pointer;
-}
 
-.project-item:hover div {
-    font-size: 25px;
-}
+.work-boxes-container {
+    margin: 0 20px;
 
+}
 .my-work-container h2 {
     font-size: 5vw;
     border-bottom: 2px solid rgb(255, 185, 55);
     padding-bottom: 20px;
 }
 
-.my-work-container section {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-item-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    height: 100px;
-}
-
-.project-item div {
+.project-item {
     width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(3px);
-    font-size: 20px;
+}
+
+.project-item-img {
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.project-item-text-container {
+    margin: 10px 0px 40px 0px;
+}
+
+.project-item-text-container h4 {
+    margin: 0px 0px 5px 3px;
+}
+
+.project-item-text-container p {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(196, 196, 196);
+    margin: 3px 3px;
+}
+
+.project-item-wrapper {
+    width: 100%;
 }
 
 #section4 {
     padding-top: 0;
 }
 
+.project-button-container button {
+    margin: 0px 3px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 185, 55);
+    color: rgb(255, 185, 55);
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 20px;
+}
 
-@media (min-width: 800px) {
-    .my-work-container section {
-        grid-template-columns: 1fr 1fr;
-
+@media(min-width: 700px){
+    .project-button-container button {
+        color: blue;
     }
 
-    .project-item-block {
+    .project-item {
+        display: flex;
+    }
+
+    .project-item-img {
+        width: 40%;
+        height: 50%;
+        max-width: 300px;
+        margin-right: 20px;
+    }
+
+    .project-item-text-container {
+        width: 60%;
+    }
+
+    .project-item-wrapper {
         height: 200px;
     }
 
+    .work-boxes-container {
+        margin: 0 60px;
+    
+    }
 }
 
-@media (min-width: 1300px) {
-     .project-item {
-        max-width: 700px;
-    }
+@media(min-width: 900px){
 
 }

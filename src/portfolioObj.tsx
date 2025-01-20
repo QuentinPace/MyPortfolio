@@ -16,24 +16,20 @@ const portfolioObj = {
     myWork: [
         {
             name: "Habito",
-            description: "Habito is a web application designed to help users build and maintain positive habits by giving users daily tasks/habits to complete. Users can create and edit personalized programs, receive a daily list of habits to complete, maintain a daily streak, and earn rewards like badges and points for their accomplishments. Habito, built as a solo project, combines a robust SQLAlchemy-Flask backend in Python with an intuitive React-Vite frontend in JavaScript, delivering both reliability and a seamless user experience.",
+            description: "Habito is a web application designed to help users build and maintain positive habits by giving users daily tasks/habits to complete.",
             githubLink: "https://github.com/QuentinPace/Habito",
+            demoVideoLink: "",
             liveLink: "https://habito-lc92.onrender.com/login",
             previewImg: "https://habito-images.s3.us-east-2.amazonaws.com/Habito-login-signup-page.png",
+
         },
         {
             name: "RobinhoodClone",
-            description: "RobinHoodClone is a streamlined stock trading application inspired by Robinhood, built with 2 full CRUD features and 2 partial CRUD features. Developed by Quentin Pace, Adrian Arriaga, Tina Zhou, and Mandy Pan in one week, the platform enables users to efficiently buy and sell stocks, manage their portfolio, and create or edit watchlists. Designed with a focus on intuitive user experience and performant backend queries, RobinHoodClone delivers a reliable and scalable foundation for stock trading functionality.",
+            description: "RobinHoodClone is a streamlined stock trading application inspired by Robinhood, built with 2 full CRUD features and 2 partial CRUD features.",
             githubLink: "https://github.com/QuentinPace/RobinhoodClone",
+            demoVideoLink: "",
             liveLink: "https://robinhoodclone-maw2.onrender.com/login",
             previewImg: "https://habito-images.s3.us-east-2.amazonaws.com/RobinhoodClone-login-signup-page.png"
-        },
-        {
-            name: "AirbnbClone",
-            description: "Airbnb-Clone is a web application inspired by Airbnb! This application is complete with full CRUD for spots and Reviews. With a RESTful api the backend infrastructure is easily scalable. And with a React/Redux frontend the site is fast and reliable.",
-            githubLink: "https://github.com/QuentinPace/Airbnb-clone",
-            liveLink: "https://airbnb-clone-qlbv.onrender.com/",
-            previewImg: "https://habito-images.s3.us-east-2.amazonaws.com/AirbnbClone-home-page.png"
         }
     ]
 }
