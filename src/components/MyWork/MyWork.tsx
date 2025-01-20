@@ -3,6 +3,7 @@ import portfolioObj from "../../portfolioObj"
 import { Project } from "../../portfolioObj"; // TS interface
 import React from "react";
 import SlideInDiv from "../SlideInDiv/SlideInDiv";
+import { Navigate } from "react-router-dom";
 
 export default function MyWork () {
 
@@ -19,7 +20,7 @@ export default function MyWork () {
                                 <h4>{myWorkArr[i].name}</h4>
                                 <p>{myWorkArr[i].description}</p>
                                 <nav className="project-button-container">
-                                    <button className="live-site-project">Live Site</button>
+                                    <button className="live-site-project" onClick={() => window.open(portfolioObj.linkedInLink, "_blank")}>Live Site</button>
                                     <button className="source-code-project">GitHub Repo</button>
                                     <button className="demo-video-project">Demo Video</button>
                                 </nav>

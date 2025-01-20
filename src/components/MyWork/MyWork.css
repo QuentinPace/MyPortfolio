@@ -5,8 +5,13 @@
 
 }
 .my-work-container h2 {
-    font-size: 5vw;
-    border-bottom: 2px solid rgb(255, 185, 55);
+    font-size: 40px;
+    font-weight: 200;
+    background: linear-gradient(to right, #FDB838, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 30px;
     padding-bottom: 20px;
 }
 
@@ -43,6 +48,10 @@
     padding-top: 0;
 }
 
+.project-button-container button:hover {
+    cursor: pointer;
+}
+
 .project-button-container button {
     margin: 0px 3px;
     background-color: transparent;
@@ -54,8 +63,9 @@
 }
 
 @media(min-width: 700px){
-    .project-button-container button {
-        color: blue;
+
+    .my-work-container h2 {
+        font-size: 60px;
     }
 
     .project-item {
@@ -84,5 +94,21 @@
 }
 
 @media(min-width: 900px){
+
+    .project-item-text-container h4 {
+        margin: 0px 0px 5px 3px;
+        font-size: 25px;
+    }
+    
+    .project-item-text-container p {
+        font-size: 18px;
+        line-height: 25px;
+        color: rgb(196, 196, 196);
+        margin: 3px 3px;
+    }
+
+    .project-button-container button {
+        font-size: 18px;
+    }
 
 }
