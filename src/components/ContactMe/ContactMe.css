@@ -18,9 +18,6 @@
 }
 
 .contact-container {
-    background-color: rgb(8, 8, 8);
-    box-shadow: 5 5 10px 5px rgba(0, 0, 0, 0.5);
-    border: 1px solid grey;
     width: 80%;
     height: min-content;
     border-radius: 7px;
@@ -32,6 +29,7 @@
 .contact-container #section {
     margin: 15px;
     height: 60px;
+    background-color: rgba(0, 0, 0, 0.281);
     border-radius: 5px;
     display: flex;
 }
