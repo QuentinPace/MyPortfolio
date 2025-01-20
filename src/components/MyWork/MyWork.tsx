@@ -3,7 +3,6 @@ import portfolioObj from "../../portfolioObj"
 import { Project } from "../../portfolioObj"; // TS interface
 import React from "react";
 import SlideInDiv from "../SlideInDiv/SlideInDiv";
-import { Navigate } from "react-router-dom";
 
 export default function MyWork () {
 
@@ -20,9 +19,9 @@ export default function MyWork () {
                                 <h4>{myWorkArr[i].name}</h4>
                                 <p>{myWorkArr[i].description}</p>
                                 <nav className="project-button-container">
-                                    <button className="live-site-project" onClick={() => window.open(portfolioObj.linkedInLink, "_blank")}>Live Site</button>
-                                    <button className="source-code-project">GitHub Repo</button>
-                                    <button className="demo-video-project">Demo Video</button>
+                                    <button className="live-site-project" onClick={() => window.open(myWorkArr[i].liveLink, "_blank")}>Live Site <span className="arrow">→</span></button>
+                                    <button className="source-code-project" onClick={() => window.open(myWorkArr[i].githubLink, "_blank")}>GitHub Repo <span className="arrow">→</span></button>
+                                    <button className="demo-video-project" onClick={() => window.open(myWorkArr[i].demoVideoLink, "_blank")}>Demo Video <span className="arrow">→</span></button>
                                 </nav>
                             </footer>
                         </div>

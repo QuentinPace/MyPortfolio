@@ -18,7 +18,7 @@ const portfolioObj = {
             name: "Habito",
             description: "Habito is a web application designed to help users build and maintain positive habits by giving users daily tasks/habits to complete.",
             githubLink: "https://github.com/QuentinPace/Habito",
-            demoVideoLink: "",
+            demoVideoLink: "https://www.loom.com/share/ee4c0b41f7ad49a4b40f4c6604bb90d8?sid=5a493570-11c5-4092-bd87-81f840582ee6",
             liveLink: "https://habito-lc92.onrender.com/login",
             previewImg: "https://habito-images.s3.us-east-2.amazonaws.com/Habito-login-signup-page.png",
 
@@ -27,7 +27,7 @@ const portfolioObj = {
             name: "RobinhoodClone",
             description: "RobinHoodClone is a streamlined stock trading application inspired by Robinhood, built with 2 full CRUD features and 2 partial CRUD features.",
             githubLink: "https://github.com/QuentinPace/RobinhoodClone",
-            demoVideoLink: "",
+            demoVideoLink: "https://www.loom.com/share/ee4c0b41f7ad49a4b40f4c6604bb90d8?sid=5a493570-11c5-4092-bd87-81f840582ee6",
             liveLink: "https://robinhoodclone-maw2.onrender.com/login",
             previewImg: "https://habito-images.s3.us-east-2.amazonaws.com/RobinhoodClone-login-signup-page.png"
         }
@@ -39,7 +39,8 @@ export interface Project {
     description: string;
     githubLink: string;
     liveLink: string;
-    previewImg: string
+    previewImg: string;
+    demoVideoLink: string
 }
 
 export default portfolioObj

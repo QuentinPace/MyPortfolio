@@ -53,13 +53,25 @@
 }
 
 .project-button-container button {
+    padding-right: 15px;
+    transition: all 0.3s ease;
+    position: relative;
     margin: 0px 3px;
     background-color: transparent;
     border: 1px solid rgb(255, 185, 55);
     color: rgb(255, 185, 55);
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 9px;
     line-height: 20px;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+  
+.project-button-container button:hover .arrow {
+    transform: translateX(5px);
 }
 
 @media(min-width: 700px){
@@ -93,7 +105,7 @@
     }
 }
 
-@media(min-width: 900px){
+@media(min-width: 950px){
 
     .project-item-text-container h4 {
         margin: 0px 0px 5px 3px;
@@ -109,6 +121,7 @@
 
     .project-button-container button {
         font-size: 18px;
+        line-height: 30px;
     }
 
 }
