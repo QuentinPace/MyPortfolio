@@ -1,6 +1,7 @@
 import portfolioObj from "../../portfolioObj"
 import "./Home.scss"
 import SlideInDiv from "../SlideInDiv/SlideInDiv";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
 export default function Home () {
@@ -34,9 +35,15 @@ export default function Home () {
                 </div>
             </section>
             <div className="scroll-down-container">
-                <div className="chevron"></div>
-                <div className="chevron"></div>
-                <div className="chevron"></div>
+                <Link
+                to="section2"
+                smooth={true}
+                duration={500}
+                className="scroll-animation-container">
+                    <div className="chevron"></div>
+                    <div className="chevron"></div>
+                    <div className="chevron"></div>
+                </Link>
             </div>
         </main>
     )

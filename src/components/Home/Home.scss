@@ -62,6 +62,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.link-clickable {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .home-left h2 {
     font-size: 70px;
     color: rgb(167, 167, 167);
@@ -156,8 +162,7 @@ $base: 0.6rem;
  justify-content: center;
  align-items: center;
  width: 100%;
- height: 10px;
- margin-bottom: 150px;
+ height: 150px;
 }
 
 .chevron {
@@ -167,6 +172,18 @@ $base: 0.6rem;
   opacity: 0;
   transform: scale(0.3);
   animation: move-chevron 3s ease-out infinite;
+}
+
+.scroll-animation-container:hover {
+  cursor: pointer;
+}
+
+.scroll-animation-container {
+  width: 70px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .chevron:first-child {
