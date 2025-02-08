@@ -23,10 +23,10 @@
   border-radius: 7px;
   color: #fdb838;
   width: 50%;
-  min-width: 250px;
+  min-width: 320px;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 30px;
   line-height: 60px;
@@ -36,6 +36,14 @@
 
 .get-resume:hover {
   cursor: pointer;
+}
+
+.get-resume:hover .arrow {
+  transform: translateX(5px);
+}
+
+.get-resume .arrow {
+  font-weight: 900;
 }
 
 .main-home {
