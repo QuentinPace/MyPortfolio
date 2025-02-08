@@ -9,7 +9,7 @@ const portfolioObj = {
   email: "quentinepace@gmail.com",
   githubProfileLink: "https://github.com/QuentinPace",
   aLittleBitAboutMe:
-    "Hi there! I'm Quentin Pace, a full-stack software engineer based in Indiana. I love building applications that are fast, functional, and easy to use—whether it’s a fin-tech platform, a habit tracker, or a community-driven marketplace. When I’m not coding, you can find me lifting at the gym, perfecting my golf swing, or on adventures with my little one.",
+    "Hi there! I'm Quentin Pace, a full-stack software engineer based in Indiana. I love building applications that are fast, functional, and easy to use—whether it's a fin-tech platform, a habit tracker, or a community-driven marketplace. When I’m not coding, you can find me lifting at the gym, perfecting my golf swing, or on adventures with my little one.",
   myWork: [
     {
       name: "Habito",
